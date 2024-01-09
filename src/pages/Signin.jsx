@@ -5,12 +5,16 @@ import Button from "../components/Button.jsx"
 
 
 
+
 export default function Signin(){
 
     // const name = " thierry ";
      return (
         
         <div className="flex flex-col items-center justify-around bg-zinc-900 rounded p-8 w-[35rem] h-[35rem]">
+
+           
+
             <img src={logo} alt="logo" className="w-45"/>
 
             <form className="flex flex-col justify-center gap-2 w-full text-2x2">
