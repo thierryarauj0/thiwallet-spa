@@ -2,7 +2,7 @@
 import logo from "../assets/thi-wallet.png";
 import Input from "../components/Input.jsx";
 import Button from "../components/Button.jsx"
-
+import { Link } from "react-router-dom";
 
 
 
@@ -29,7 +29,7 @@ export default function Signin(){
         
 
             </form>
-            <p className="text-white text 2x1">Não tem uma conta ? Clique aqui para se registrar</p>
+            <p className="text-white text 2x1">Não tem uma conta ? Cliquei aqui para se  <Link to="/Signup" className="text-sky-400 hover:text-sky-800"> registrar</Link>{""}</p>
         </div>
     
     );

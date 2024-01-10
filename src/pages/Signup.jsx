@@ -2,6 +2,7 @@ import Input from "../components/Input.jsx";
 import logo from "../assets/thi-wallet.png";
 import Button from "../components/Button.jsx";
 import { BiArrowBack} from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 export default function Signup (){
 
@@ -10,7 +11,7 @@ return(
 
     <div className="flex flex-col items-center justify-around bg-zinc-900 rounded p-6 w-[35rem] relative">
 
-        <BiArrowBack className="text-white absolute top-3 left-3 text-2xl"/>
+        <Link to="/Signin">  <BiArrowBack className="text-white absolute top-3 left-3 text-2xl"/> </Link>
 
         <img src={logo} alt="logo" className="w-60"/>
 
